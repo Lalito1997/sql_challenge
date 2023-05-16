@@ -70,5 +70,3 @@ REFERENCES "departments" ("dept_no");
 
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
-
-drop table dept_manager;
